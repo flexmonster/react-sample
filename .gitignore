@@ -32,6 +32,9 @@ coverage
 *.pem
 *.local
 
+# npm config (contains personal auth token)
+.npmrc
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
