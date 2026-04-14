@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { ReactFlexmonster } from '@flexmonster/react';
+import { FMFlexmonster } from '@flexmonster/react';
 import './App.css';
 import '@flexmonster/flexmonster/flexmonster.css';
 
@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="pivot-wrapper">
       <div className="pivot-container">
-        <ReactFlexmonster
+        <FMFlexmonster
           ref={pivotRef}
           state={state}
           width="100%"
