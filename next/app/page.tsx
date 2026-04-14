@@ -44,8 +44,6 @@ export default function Home() {
         <ReactFlexmonster
           ref={pivotRef}
           state={state}
-          width="100%"
-          height="100%"
         />
       </div>
     </div>
