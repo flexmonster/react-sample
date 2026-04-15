@@ -1,3 +1,5 @@
+@import "@flexmonster/flexmonster/flexmonster.css";
+
 .pivot-wrapper {
   display: flex;
   justify-content: center;
