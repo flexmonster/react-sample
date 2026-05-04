@@ -1,8 +1,8 @@
 "use client";
 
 import { FMFlexmonster } from "@flexmonster/react/next";
-import { StateInputParams } from "@flexmonster/flexmonster";
-import "@flexmonster/flexmonster/flexmonster.css";
+import { StateInputParams } from "@flexmonster/js";
+import "@flexmonster/js/flexmonster.css";
 
 export default function PivotTableDemo() {
 
@@ -22,24 +22,24 @@ export default function PivotTableDemo() {
     slice: {
       rows: [
         {
-          name: "Year",
+          fieldName: "Year",
         },
         {
-          name: "Gender",
+          fieldName: "Gender",
         },
         {
-          name: "Name",
+          fieldName: "Name",
         },
       ],
       values: [
         {
-          name: "Count",
+          fieldName: "Count",
           aggregation: "sum",
         },
       ],
       columns: [
         {
-          name: "State",
+          fieldName: "State",
         },
       ],
     },

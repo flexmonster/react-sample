@@ -1,5 +1,5 @@
 import { FMFlexmonster } from "@flexmonster/react";
-import "@flexmonster/flexmonster/flexmonster.css";
+import "@flexmonster/js/flexmonster.css";
 
 export default function PivotTableDemo() {
 
@@ -18,24 +18,24 @@ export default function PivotTableDemo() {
     slice: {
       rows: [
         {
-          name: "Year",
+          fieldName: "Year",
         },
         {
-          name: "Gender",
+          fieldName: "Gender",
         },
         {
-          name: "Name",
+          fieldName: "Name",
         },
       ],
       values: [
         {
-          name: "Count",
+          fieldName: "Count",
           aggregation: "sum",
         },
       ],
       columns: [
         {
-          name: "State",
+          fieldName: "State",
         },
       ],
     },
