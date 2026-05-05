@@ -12,7 +12,7 @@ Table of contents:
 
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
-* [What is inside the project](#what-is-inside-the-project)
+* [What is inside the projects](#what-is-inside-the-projects)
 * [Related Flexmonster docs](#related-flexmonster-docs)
 * [Support and feedback](#support-and-feedback)
 * [Flexmonster licensing](#flexmonster-licensing)
