@@ -1,0 +1,24 @@
+language: node_js
+node_js: '22'
+dist: focal
+
+env:
+  - APP=es6  PORT=5173
+  - APP=next PORT=3000
+
+install:
+  - cd "$TRAVIS_BUILD_DIR/$APP" && npm ci && npm run build
+
+before_script:
+  - |
+    if [ "$APP" = "es6" ]; then
+      cd "$TRAVIS_BUILD_DIR/es6" && npm run preview -- --port 5173 --strictPort &
+    else
+      cd "$TRAVIS_BUILD_DIR/next" && npm start -- -p 3000 &
+    fi
+  - npx --yes wait-on "http://localhost:$PORT" --timeout 60000
+  - git clone "https://github.com/flexmonster/framework-samples-tests" "$TRAVIS_BUILD_DIR/framework-samples-tests"
+  - cd "$TRAVIS_BUILD_DIR/framework-samples-tests" && npm ci
+
+script:
+  - cd "$TRAVIS_BUILD_DIR/framework-samples-tests" && BASE_URL="http://localhost:$PORT" npm test
