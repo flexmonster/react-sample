@@ -1,5 +1,6 @@
 # React pivot grid | Flexmonster 3.0 (preview) sample project with React
 
+[![Flexmonster Pivot](https://cdn.flexmonster.com/readmes/react_30.webp)](https://prerelease.flexmonster.com/?r=sample_30_react)
 Website: [prerelease.flexmonster.com](https://prerelease.flexmonster.com/?r=sample_30_react)
 
 [![Github Stars](https://img.shields.io/github/stars/flexmonster?style=social)](https://github.com/flexmonster) [![Twitter](https://img.shields.io/twitter/follow/Flexmonster?style=social)](https://x.com/Flexmonster)
