@@ -1,5 +1,6 @@
 # Next.js pivot grid | Flexmonster 3.0 (preview) sample project with Next.js
 
+[![Flexmonster Pivot](https://cdn.flexmonster.com/readmes/nextjs_30.webp)](https://prerelease.flexmonster.com/?r=sample_30_next)
 Website: [prerelease.flexmonster.com](https://prerelease.flexmonster.com/?r=sample_30_next)
 
 [![Github Stars](https://img.shields.io/github/stars/flexmonster?style=social)](https://github.com/flexmonster) [![Twitter](https://img.shields.io/twitter/follow/Flexmonster?style=social)](https://x.com/Flexmonster)
