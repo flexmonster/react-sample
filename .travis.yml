@@ -7,7 +7,7 @@ env:
   - APP=next PORT=3000
 
 install:
-  - cd "$TRAVIS_BUILD_DIR/$APP" && npm ci && npm run build
+  - cd "$TRAVIS_BUILD_DIR/$APP" && npm i && npm run build
 
 before_script:
   - |
